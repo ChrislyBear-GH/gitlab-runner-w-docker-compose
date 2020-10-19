@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:alpine
+FROM klud/gitlab-runner
 
 # Add docker-compose and the CLI
 RUN apk add docker-compose docker-cli
