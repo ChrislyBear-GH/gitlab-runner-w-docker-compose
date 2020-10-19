@@ -1,0 +1,11 @@
+image: chrisly3ear/gitlab-runner-w-docker-compose:latest
+manifests:
+  - image: chrisly3ear/gitlab-runner-w-docker-compose:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: chrisly3ear/gitlab-runner-w-docker-compose:arm
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
